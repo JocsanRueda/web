@@ -44,7 +44,7 @@ export function useResize( name ) {
         return () => {
             window.removeEventListener('resize', handleResize);
         };
-    }, []);
+    }, [name]);
 
 
     return { collapse, setCollapse }

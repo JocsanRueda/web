@@ -1,10 +1,9 @@
 /* eslint-disable react/prop-types */
 
 
-// eslint-disable-next-line react/prop-types
+ 
 import { useState } from "react"
-import { useResize } from "../hooks/useResize"
-
+import { useResize } from "../Hooks/UseResize"
 
 /**
  * Componente que muestra las opciones del menu
