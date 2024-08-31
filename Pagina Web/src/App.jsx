@@ -1,23 +1,20 @@
-
-
-import './App.css'
-import Home from './Pages/Home'
+import "./App.css";
+import "./index.css";
+import Home from "./Pages/Home";
 
 const list = [
-  { 'name': 'Crear Docentes', 'href': '/administracion/crear-docente', 'icons': 'bi bi-person-badge-fill' },
-  { 'name': 'Estudiantes', 'href': '/administracion/estudiantes', 'icons': 'bi bi-person-fill-up' },
-  { 'name': 'Docentes', 'href': '/administracion/gestionar-docente', 'icons': 'bi bi-person-square' },
-  { 'name': 'Procesos', 'href': '/administracion/procesos', 'icons': 'bi bi-building-fill-gear' }
-
-]
+  { name: "Jocsan Rueda", icons: "bi bi-person-badge-fill" },
+  { name: "Sobre Mi", icons: "bi bi-person-fill-up" },
+  { name: "Portafoleo", icons: "bi bi-person-square" },
+  { name: "Educacion", icons: "bi bi-building-fill-gear" },
+  { name: "Contacto", icons: "bi bi-building-fill-gear" },
+];
 function App() {
- 
-
   return (
     <>
-     <Home list={list}></Home>
+      <Home list={list}></Home>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

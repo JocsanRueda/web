@@ -1,0 +1,45 @@
+.bg-dark-per1 {
+  background-color: #341c34 !important; /* Dark color */
+}
+.bg-dark-per2 {
+  background-color: #46647a !important; /* Dark color */
+}
+/* En tu archivo CSS */
+.my-image {
+  width: 100px; /* Ajusta el ancho de la imagen */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.lexend-deca-custom-1 {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Peso normal */
+  font-style: normal;
+  font-size: 300%;
+  color: #cad4f9;
+}
+
+.lexend-deca-custom-2 {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250; /* Peso normal */
+  font-style: normal;
+  font-size: 110%;
+  color: #919cbb;
+}
+
+.jetbrains-mono-1 {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #04d6b9;
+}
+
+.bg-fost {
+  background-color: #04d6baa1 !important;
+}
+
+.bg-fost:hover {
+  background-color: #04d6bade !important;
+}
