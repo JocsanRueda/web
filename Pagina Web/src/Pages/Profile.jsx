@@ -4,10 +4,10 @@ export function Profile() {
       <div className="text-white ">
         <p className="jetbrains-mono-1">Hola mi nombre es_</p>
         <p className="lexend-deca-custom-1 ">Jocsan Rueda</p>
-        <p className="lexend-deca-custom-2 ">
+        <p className="lexend-deca-custom-3 ">
           Bienvenido a mi portafoleo como desarrollador trainer
         </p>
-        <p className="lexend-deca-custom-2">
+        <p className="lexend-deca-custom-3">
           Si quieres contactarme escribe a{" "}
           <a
             href="mailto:jocsanelyrueda@gmail.com"
